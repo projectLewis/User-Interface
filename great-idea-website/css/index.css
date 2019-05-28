@@ -60,7 +60,132 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+nav {
+	margin: 0;
+	padding: 10px 160px 10px 100px;
+	/* padding: 10px 0px 0px 30px; */
+	/* text-align: center; */
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: lightgray;
+	padding: 0px 50px 0px 0px;
+}
+
+nav img {
+	padding: 0px 0px 0px 35px;
+}
+
+hr {
+	display: block;
+	position: relative;
+	margin: 18px 210px 18px 100px;
+	padding: 10px 0px;
+	height: 0;
+	width: 100%;
+	max-height: 0;
+	font-size: 1px;
+	line-height: 0;
+	clear: both;
+	border: none;
+	border-top: 0px solid #aaaaaa;
+	border-bottom: 1px solid #000000;
+ }
+
+ div.mission-statement main {
+	/* font-weight: bold; */
+	vertical-align: middle;
+	margin: 50px 0px 30px 0px;
+	padding: 0px 0px 30px 150px;
+}
+
+ div.mission-statement main h2 {
+	font-size: 70px;
+	text-align: center;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 70px 0px 70px;
+	clear: both;
+ }
+
+ div.mission-statement main h2 button {
+	font-size: 16px;
+	background-color: white;
+	padding: 5px 32px;
+	border: 1px solid black;
+ }
+
+ div.mission-statement main h2 button:hover {
+	font-size: 24px;
+	background-color: lightgray;
+	padding: 5px 40px;
+	border: 2px outset black;
+ }
+
+div.mission-statement main img {
+	float: center;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#text-above-img {
+	padding: 10px 210px 10px 100px;
+}
+#text-above-img .left {
+	float: left;
+	width: 50%;
+}
+#text-above-img .right {
+	float: right;
+	width: 50%;
+}
+
+.middle-img {
+	padding: 10px 10px 10px 100px;
+}
+
+#text-below-img {
+	padding: 10px 210px 10px 100px;
+	clear: both;
+}
+#text-below-img .left {
+	float: left;
+	width: 33%;
+}
+#text-below-img .center {
+	float: left;
+	width: 33%;
+}
+#text-below-img .right {
+	float: right;
+	width: 33%;
+}
+
+footer {
+	padding: 20px 210px 10px 100px;
+}
+
+footer h2 {
+	padding: 0px 0px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.copyright {
+	text-align: center;
+}
