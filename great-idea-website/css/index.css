@@ -83,22 +83,6 @@ nav img {
 	padding: 0px 0px 0px 35px;
 }
 
-hr {
-	display: block;
-	position: relative;
-	margin: 18px 210px 18px 100px;
-	padding: 10px 0px;
-	height: 0;
-	width: 100%;
-	max-height: 0;
-	font-size: 1px;
-	line-height: 0;
-	clear: both;
-	border: none;
-	border-top: 0px solid #aaaaaa;
-	border-bottom: 1px solid #000000;
- }
-
  div.mission-statement main {
 	/* font-weight: bold; */
 	vertical-align: middle;
@@ -189,3 +173,22 @@ footer a:hover {
 .copyright {
 	text-align: center;
 }
+hr {
+	display: block;
+	position: relative;
+	margin: 18px 210px 18px 100px;
+	padding: 10px 0px;
+	height: 0;
+	width: 74%;
+	max-height: 0;
+	font-size: 1px;
+	line-height: 0;
+	clear: both;
+	border: none;
+	border-top: 0px solid #aaaaaa;
+	border-bottom: 1px solid #000000;
+ }
+
+  /* .hr {
+	 border-top: 1px solid black;
+ } */
